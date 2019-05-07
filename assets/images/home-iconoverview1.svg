@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="80px" height="81px" viewBox="0 0 80 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polyline id="path-1" points="0.744210526 39.7194545 40.2557895 79.2043247 79.7663158 39.7194545 40.2557895 0.233532468"></polyline>
+        <polyline id="path-3" points="0.744210526 39.7194545 40.2557895 79.2043247 79.7663158 39.7194545 40.2557895 0.233532468"></polyline>
+        <polyline id="path-5" points="0.744210526 39.7194545 40.2557895 79.2043247 79.7663158 39.7194545 40.2557895 0.233532468"></polyline>
+    </defs>
+    <g id="1-Homepage-Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-135.000000, -1370.000000)">
+        <g id="OVERVIEW" transform="translate(0.000000, 1150.000000)">
+            <g id="icon1" transform="translate(135.000000, 220.000000)">
+                <g id="Page-1">
+                    <polygon id="Stroke-1" stroke="#00B3AE" points="79.7663158 40.2296494 40.2557895 79.7145195 0.744210526 40.2296494 40.2557895 0.743727273"></polygon>
+                    <g id="Group-9" transform="translate(0.000000, 0.510405)">
+                        <g id="Group-5">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Clip-4"></g>
+                            <path d="M16.9018947,40.1281364 L51.2124211,20.2168636" id="Stroke-3" stroke="#00563B" mask="url(#mask-2)"></path>
+                        </g>
+                        <g id="Group-8">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <g id="Clip-7"></g>
+                            <polyline id="Stroke-6" stroke="#00563B" mask="url(#mask-4)" points="58.1493684 50.6875909 58.1493684 24.5561494 65.3788421 24.5561494 65.3788421 50.6875909"></polyline>
+                        </g>
+                    </g>
+                    <polyline id="Stroke-10" stroke="#00563B" points="43.6921053 51.1979961 43.6921053 31.9462948 50.9205263 31.9462948 50.9205263 51.1979961"></polyline>
+                    <polyline id="Stroke-11" stroke="#00563B" points="29.2348421 51.1979961 29.2348421 38.8260351 36.4632632 38.8260351 36.4632632 51.1979961"></polyline>
+                    <polyline id="Stroke-12" stroke="#00563B" points="14.7771579 51.1979961 14.7771579 45.7068273 22.0055789 45.7068273 22.0055789 51.1979961"></polyline>
+                    <g id="Group-15" transform="translate(0.000000, 0.510405)">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <g id="Clip-14"></g>
+                        <path d="M72.9170526,50.6875909 L8.31178947,50.6875909" id="Stroke-13" stroke="#00563B" mask="url(#mask-6)"></path>
+                    </g>
+                    <polyline id="Stroke-16" stroke="#00563B" points="47.036 19.0818117 51.6338947 20.6450065 50.0644211 25.2546429"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

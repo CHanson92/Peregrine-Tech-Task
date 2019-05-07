@@ -1,0 +1,48 @@
+@mixin Cardo {
+  font-family: "Cardo", sans-serif;
+}
+
+@mixin WorkSans {
+  font-family: "Work Sans", sans-serif;
+}
+
+@mixin padding-left {
+  padding-left: 2rem;
+}
+
+@mixin paleyellowborder {
+  border: 1px solid $paleyellow;
+}
+
+@mixin turqoiseborder {
+  border: 1px solid $turqoise;
+}
+
+@mixin headerbackground {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 93, 68, 1)),
+    url("../assets/images/home-banner.jpg") no-repeat center/cover;
+}
+
+@mixin aboutbackground {
+  background: url("../assets/images/home-mountain-transparent-opacity.png")
+      bottom/cover no-repeat,
+    url("../assets/images/home-smoke-transparent.png") left bottom/cover
+      no-repeat,
+    $green;
+}
+
+@mixin overviewbackground {
+  background: url("../assets/images/home-geo-station-smoke.png") bottom right
+      no-repeat,
+    url("../assets/images/home-geo-station.jpg") bottom right no-repeat;
+}
+
+@mixin subscribebackground {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 93, 68, 1)),
+    url("../assets/images/home-mountain-footer.jpg") center bottom/cover;
+}
+
+@mixin modalbackground {
+  background: linear-gradient(rgba(0, 93, 68, 1), rgba(0, 93, 68, 0.8)),
+    url("../assets/images/home-mountain-footer.jpg") center bottom/cover;
+}

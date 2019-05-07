@@ -1,0 +1,346 @@
+@import "variables";
+@import "mixins";
+
+header {
+  @include Cardo;
+  @include headerbackground;
+}
+
+.about {
+  @include padding-left;
+  @include aboutbackground;
+  h1 {
+    @include Cardo;
+    color: $paleyellow;
+  }
+  p {
+    @include WorkSans;
+    color: white;
+  }
+  button {
+    @include paleyellowborder;
+    i {
+      color: $paleyellow;
+    }
+  }
+}
+
+.overview {
+  @include padding-left;
+  @include overviewbackground;
+  h1 {
+    @include Cardo;
+    color: $green;
+  }
+  p {
+    @include Cardo;
+  }
+  .overview-description {
+    color: $grey;
+  }
+  button {
+    @include turqoiseborder;
+    i {
+      color: $turqoise;
+    }
+  }
+}
+
+.mediasection {
+  background: $green;
+  h1 {
+    @include Cardo;
+    color: $grey;
+  }
+  p,
+  button {
+    @include WorkSans;
+  }
+  .description {
+    color: $grey;
+  }
+  .box {
+    .images {
+      height: 26em;
+      .geyser,
+      .sunrise,
+      .industrial {
+        height: 20em;
+      }
+    }
+    button {
+      color: $turqoise;
+    }
+  }
+  p {
+    color: $green;
+  }
+  .box {
+    background: white;
+  }
+  .bottombutton {
+    button {
+      @include paleyellowborder;
+    }
+  }
+}
+
+.subscribe {
+  @include subscribebackground;
+  height: 40em;
+  div {
+    @include paleyellowborder;
+    h1 {
+      @include Cardo;
+    }
+    button {
+      @include paleyellowborder;
+      i {
+        color: $paleyellow;
+      }
+    }
+    input {
+      width: 15.3em;
+    }
+  }
+}
+
+footer {
+  background: $green;
+  h1 {
+    @include Cardo;
+  }
+  p {
+    @include WorkSans;
+    color: $palegreen;
+  }
+  .copyright {
+    color: white;
+  }
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  header {
+    height: 45em;
+    .nav {
+      display: none;
+    }
+    .nav-mobile-overlay {
+      @include modalbackground;
+      .modal-content {
+        background: transparent;
+        border: 0;
+        .modal-header {
+          border-bottom: none;
+          button {
+            opacity: 1;
+          }
+        }
+        .modal-body {
+          img {
+            height: 6em;
+            margin-bottom: 1em !important;
+          }
+          h1 {
+            padding-bottom: 0.5em;
+            border-bottom: 1px solid $paleyellow;
+            color: $paleyellow;
+          }
+          .nav-mobile {
+            @include WorkSans;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          }
+        }
+        .modal-footer {
+          @include WorkSans;
+          border-top: 1px solid $paleyellow;
+          img {
+            height: 4em;
+          }
+          .row {
+            color: $palegreen;
+          }
+        }
+      }
+    }
+    img {
+      height: 7em;
+    }
+    .down {
+      display: none;
+    }
+    .hamburger {
+      background: transparent;
+      i {
+        color: white;
+        font-size: 2em;
+      }
+    }
+  }
+  .about {
+    height: 52em;
+    img {
+      height: 30em;
+    }
+  }
+  .mediasection {
+    img {
+      height: 6em;
+    }
+    .d-flex {
+      margin-left: 3em;
+      margin-right: 3em;
+    }
+    .box {
+      margin-bottom: 2em;
+    }
+    .bottombutton {
+      button {
+        i {
+          color: $paleyellow;
+        }
+      }
+    }
+  }
+  .subscribe {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  footer {
+    img {
+      height: 5em;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 46px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  header {
+    height: 45em;
+    img {
+      height: 6em;
+    }
+    ul {
+      @include WorkSans;
+      border-top: 1px solid white;
+      border-bottom: 1px solid white;
+    }
+    button {
+      display: none;
+    }
+    .down {
+      background: transparent;
+      font-size: 3em;
+      i {
+        color: $paleyellow;
+      }
+    }
+    .hamburger {
+      display: none;
+    }
+    .nav-mobile-overlay {
+      display: none;
+    }
+  }
+  .about {
+    display: flex;
+    height: 30em;
+    padding-top: 3em;
+    .d-flex {
+      justify-content: flex-start !important;
+      padding-top: 0 !important;
+      img {
+        height: 25em;
+      }
+    }
+    .about-description {
+      width: 50%;
+      padding-left: 2em;
+    }
+  }
+  .overview {
+    .d-flex {
+      flex-direction: row !important;
+      .row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        p {
+          width: 65%;
+        }
+      }
+    }
+  }
+  .mediasection {
+    .d-flex {
+      flex-direction: row !important;
+      padding-bottom: 3em;
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+    .box {
+      width: 33%;
+      margin-right: 1em;
+      .home {
+        height: 6em;
+      }
+      button {
+        display: none;
+      }
+    }
+    .box3 {
+      margin-right: 0;
+    }
+  }
+  .subscribe {
+    form {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  footer {
+    .text-white {
+      display: flex;
+      flex-wrap: wrap;
+      .footerlogo {
+        width: 50%;
+        img {
+          height: 4em;
+        }
+      }
+      .d-flex {
+        width: 50%;
+        align-items: center;
+        img {
+          height: 5em;
+        }
+      }
+      .copyright {
+        width: 50%;
+        padding-bottom: 0 !important;
+        order: 2;
+      }
+      .row {
+        width: 50%;
+      }
+    }
+  }
+}

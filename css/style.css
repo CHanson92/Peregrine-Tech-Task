@@ -1,0 +1,337 @@
+header {
+  font-family: "Cardo", sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0), #005d44), url("../assets/images/home-banner.jpg") no-repeat center/cover;
+}
+
+.about {
+  padding-left: 2rem;
+  background: url("../assets/images/home-mountain-transparent-opacity.png") bottom/cover no-repeat, url("../assets/images/home-smoke-transparent.png") left bottom/cover no-repeat, #005d44;
+}
+.about h1 {
+  font-family: "Cardo", sans-serif;
+  color: #f8ee9a;
+}
+.about p {
+  font-family: "Work Sans", sans-serif;
+  color: white;
+}
+.about button {
+  border: 1px solid #f8ee9a;
+}
+.about button i {
+  color: #f8ee9a;
+}
+
+.overview {
+  padding-left: 2rem;
+  background: url("../assets/images/home-geo-station-smoke.png") bottom right no-repeat, url("../assets/images/home-geo-station.jpg") bottom right no-repeat;
+}
+.overview h1 {
+  font-family: "Cardo", sans-serif;
+  color: #005d44;
+}
+.overview p {
+  font-family: "Cardo", sans-serif;
+}
+.overview .overview-description {
+  color: #484848;
+}
+.overview button {
+  border: 1px solid #00b8b5;
+}
+.overview button i {
+  color: #00b8b5;
+}
+
+.mediasection {
+  background: #005d44;
+}
+.mediasection h1 {
+  font-family: "Cardo", sans-serif;
+  color: #484848;
+}
+.mediasection p,
+.mediasection button {
+  font-family: "Work Sans", sans-serif;
+}
+.mediasection .description {
+  color: #484848;
+}
+.mediasection .box .images {
+  height: 26em;
+}
+.mediasection .box .images .geyser,
+.mediasection .box .images .sunrise,
+.mediasection .box .images .industrial {
+  height: 20em;
+}
+.mediasection .box button {
+  color: #00b8b5;
+}
+.mediasection p {
+  color: #005d44;
+}
+.mediasection .box {
+  background: white;
+}
+.mediasection .bottombutton button {
+  border: 1px solid #f8ee9a;
+}
+
+.subscribe {
+  background: linear-gradient(rgba(0, 0, 0, 0), #005d44), url("../assets/images/home-mountain-footer.jpg") center bottom/cover;
+  height: 40em;
+}
+.subscribe div {
+  border: 1px solid #f8ee9a;
+}
+.subscribe div h1 {
+  font-family: "Cardo", sans-serif;
+}
+.subscribe div button {
+  border: 1px solid #f8ee9a;
+}
+.subscribe div button i {
+  color: #f8ee9a;
+}
+.subscribe div input {
+  width: 15.3em;
+}
+
+footer {
+  background: #005d44;
+}
+footer h1 {
+  font-family: "Cardo", sans-serif;
+}
+footer p {
+  font-family: "Work Sans", sans-serif;
+  color: #92cec0;
+}
+footer .copyright {
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  header {
+    height: 45em;
+  }
+  header .nav {
+    display: none;
+  }
+  header .nav-mobile-overlay {
+    background: linear-gradient(#005d44, rgba(0, 93, 68, 0.8)), url("../assets/images/home-mountain-footer.jpg") center bottom/cover;
+  }
+  header .nav-mobile-overlay .modal-content {
+    background: transparent;
+    border: 0;
+  }
+  header .nav-mobile-overlay .modal-content .modal-header {
+    border-bottom: none;
+  }
+  header .nav-mobile-overlay .modal-content .modal-header button {
+    opacity: 1;
+  }
+  header .nav-mobile-overlay .modal-content .modal-body img {
+    height: 6em;
+    margin-bottom: 1em !important;
+  }
+  header .nav-mobile-overlay .modal-content .modal-body h1 {
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #f8ee9a;
+    color: #f8ee9a;
+  }
+  header .nav-mobile-overlay .modal-content .modal-body .nav-mobile {
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  header .nav-mobile-overlay .modal-content .modal-footer {
+    font-family: "Work Sans", sans-serif;
+    border-top: 1px solid #f8ee9a;
+  }
+  header .nav-mobile-overlay .modal-content .modal-footer img {
+    height: 4em;
+  }
+  header .nav-mobile-overlay .modal-content .modal-footer .row {
+    color: #92cec0;
+  }
+  header img {
+    height: 7em;
+  }
+  header .down {
+    display: none;
+  }
+  header .hamburger {
+    background: transparent;
+  }
+  header .hamburger i {
+    color: white;
+    font-size: 2em;
+  }
+
+  .about {
+    height: 52em;
+  }
+  .about img {
+    height: 30em;
+  }
+
+  .mediasection img {
+    height: 6em;
+  }
+  .mediasection .d-flex {
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+  .mediasection .box {
+    margin-bottom: 2em;
+  }
+  .mediasection .bottombutton button i {
+    color: #f8ee9a;
+  }
+
+  .subscribe {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  footer img {
+    height: 5em;
+  }
+}
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 46px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  header {
+    height: 45em;
+  }
+  header img {
+    height: 6em;
+  }
+  header ul {
+    font-family: "Work Sans", sans-serif;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+  header button {
+    display: none;
+  }
+  header .down {
+    background: transparent;
+    font-size: 3em;
+  }
+  header .down i {
+    color: #f8ee9a;
+  }
+  header .hamburger {
+    display: none;
+  }
+  header .nav-mobile-overlay {
+    display: none;
+  }
+
+  .about {
+    display: flex;
+    height: 30em;
+    padding-top: 3em;
+  }
+  .about .d-flex {
+    justify-content: flex-start !important;
+    padding-top: 0 !important;
+  }
+  .about .d-flex img {
+    height: 25em;
+  }
+  .about .about-description {
+    width: 50%;
+    padding-left: 2em;
+  }
+
+  .overview .d-flex {
+    flex-direction: row !important;
+  }
+  .overview .d-flex .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .overview .d-flex .row p {
+    width: 65%;
+  }
+
+  .mediasection .d-flex {
+    flex-direction: row !important;
+    padding-bottom: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .mediasection .box {
+    width: 33%;
+    margin-right: 1em;
+  }
+  .mediasection .box .home {
+    height: 6em;
+  }
+  .mediasection .box button {
+    display: none;
+  }
+  .mediasection .box3 {
+    margin-right: 0;
+  }
+
+  .subscribe form {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer .text-white {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer .text-white .footerlogo {
+    width: 50%;
+  }
+  footer .text-white .footerlogo img {
+    height: 4em;
+  }
+  footer .text-white .d-flex {
+    width: 50%;
+    align-items: center;
+  }
+  footer .text-white .d-flex img {
+    height: 5em;
+  }
+  footer .text-white .copyright {
+    width: 50%;
+    padding-bottom: 0 !important;
+    order: 2;
+  }
+  footer .text-white .row {
+    width: 50%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
